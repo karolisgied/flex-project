@@ -140,3 +140,27 @@ header {
     color: #4f545c;
     text-align: center;
 }
+
+.qoute {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background-color: #d1d4d8;
+}
+
+.qoute p {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    width: 50%;
+    margin: 10%;
+}
+
+.cite {
+    margin-top: -10%;
+    margin-right: 25%;
+    align-self: flex-end;
+    font-size: larger;
+    font-weight: bold;
+}
