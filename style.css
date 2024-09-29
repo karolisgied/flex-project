@@ -147,6 +147,7 @@ header {
     display: flex;
     flex-direction: column;
     background-color: #d1d4d8;
+    height: 50vh;
 }
 
 .qoute p {
@@ -160,7 +161,65 @@ header {
 .cite {
     margin-top: -10%;
     margin-right: 25%;
+    margin-bottom: 10%;
     align-self: flex-end;
     font-size: larger;
     font-weight: bold;
+}
+
+.signup-part {
+    height: 45vh;
+    width: 100%;
+}
+
+.signup-board {
+    background-color: rgb(0, 108, 248);
+    width: 60%;
+    height: 40%;
+    margin: auto;
+    margin-top: 10%;
+    border: solid 10px  rgb(0, 108, 248);
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.signup-board h3{
+    color: white;
+    font-size: x-large;
+}
+
+.signup-board p{
+    color: white;
+    font-size:large;
+}
+
+.signup2 {
+    background-color: rgb(0, 108, 248);
+    padding: 7px 20px 7px 20px;
+    margin-top: 10px;
+    color:white;
+    font-size: 18px;
+    border-radius: 10px;
+    font-weight: 600;
+    cursor: pointer;
+    border: white 3px solid;
+    height: 50px;
+    
+}
+
+.signup2:hover {
+    background-color: blue;
+}
+
+footer {
+    height: 10vh;
+    background-color: #1f2937;
+    color: white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: large;
 }
